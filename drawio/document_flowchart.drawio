@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" modified="2026-05-05T00:00:00.000Z" agent="claude" version="24.7.17">
+  <diagram name="Flowchart" id="diag1">
+    <mxGraphModel dx="830" dy="744" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="830" pageHeight="744" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="doc1" value="Dokumen Data&lt;br&gt;Coffee Shop" style="shape=document;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="154.46484375" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sys1" value="Simpan &amp; Validasi&lt;br&gt;Data Coffee Shop" style="rounded=1;arcSize=10;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="154.46484375" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="doc2" value="Dokumen Kriteria&lt;br&gt;&amp; Bobot Default" style="shape=document;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="234.46484375" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sys2" value="Simpan Kriteria &amp;&lt;br&gt;Skala Konversi" style="rounded=1;arcSize=10;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="234.46484375" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="doc3" value="Dokumen Evaluasi&lt;br&gt;Coffee Shop (E)" style="shape=document;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="314.46484375" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sys3" value="Simpan Nilai Evaluasi&lt;br&gt;ke Database" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="314.46484375" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="doc4" value="Dokumen Preferensi&lt;br&gt;Bobot Kriteria (W)" style="shape=document;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#B71C1C;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="610" y="414.46484375" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sys4" value="Validasi Total Bobot&lt;br&gt;∑W = 1.00" style="rounded=1;arcSize=10;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="414.46484375" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sys5" value="Proses Perhitungan&lt;br&gt;MFEP (WE = W × E)&lt;br&gt;Hitung ∑WE" style="shape=process;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#4A148C;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="494.46484375" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sys6" value="Perangkingan&lt;br&gt;Alternatif" style="rounded=1;arcSize=10;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="574.46484375" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="doc5" value="Dokumen Hasil&lt;br&gt;Ranking Coffee Shop" style="shape=document;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#B71C1C;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="610" y="574.46484375" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="sys7" value="Simpan Hasil ke&lt;br&gt;Database" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="320" y="654.46484375" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="doc6" value="Laporan&lt;br&gt;Rekomendasi" style="shape=document;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="654.46484375" width="180" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="DOCUMENT FLOWCHART — SPK Pemilihan Coffee Shop" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=20;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="249.0234375" y="40.0" width="506" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="col_admin" value="ADMIN" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1971c2;fontSize=16;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="104.46484375" width="43.99993896484375" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="col_sistem" value="SISTEM SPK" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#2f9e44;fontSize=16;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="104.46484375" width="87.9998779296875" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="col_pengunjung" value="PENGUNJUNG" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#e8590c;fontSize=16;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="104.46484375" width="87.9998779296875" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="line1" value="" style="endArrow=none;startArrow=none;html=1;strokeColor=#868e96;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="99.46484375" as="sourcePoint" />
+            <mxPoint x="250" y="849.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="line2" value="" style="endArrow=none;startArrow=none;html=1;strokeColor=#868e96;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="99.46484375" as="sourcePoint" />
+            <mxPoint x="550" y="849.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="179.46484375" as="sourcePoint" />
+            <mxPoint x="320" y="179.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="259.46484375" as="sourcePoint" />
+            <mxPoint x="320" y="259.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a3" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="339.46484375" as="sourcePoint" />
+            <mxPoint x="320" y="339.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a4" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="439.46484375" as="sourcePoint" />
+            <mxPoint x="520" y="439.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a5" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="464.46484375" as="sourcePoint" />
+            <mxPoint x="420" y="494.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a6" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="544.46484375" as="sourcePoint" />
+            <mxPoint x="420" y="574.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a7" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="599.46484375" as="sourcePoint" />
+            <mxPoint x="610" y="599.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a8" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="624.46484375" as="sourcePoint" />
+            <mxPoint x="420" y="654.46484375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1" target="doc6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="679.46484375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
