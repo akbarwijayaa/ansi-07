@@ -1,107 +1,158 @@
 <mxfile host="app.diagrams.net" modified="2026-05-05T00:00:00.000Z" agent="claude" version="24.7.17">
   <diagram name="Flowchart" id="diag1">
-    <mxGraphModel dx="760" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="760" pageHeight="688" math="0" shadow="0">
+    <mxGraphModel dx="1100" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="800" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="user_pc" value="🖥️ Komputer /&lt;br&gt;📱 Smartphone&lt;br&gt;(Browser Web)" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="40" y="128" width="160" height="60" as="geometry" />
+        <mxCell id="v_title" value="SCHEMATIC FLOWCHART - SPK Pemilihan Coffee Shop" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=20;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="30" width="900" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="server" value="🌐 Web Server&lt;br&gt;(Vercel)&lt;br&gt;Next.js + Nest.js" style="rounded=1;arcSize=10;fillColor=#e1d5e7;strokeColor=#9673a6;fontColor=#4A148C;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="280" y="123" width="180" height="70" as="geometry" />
+        <mxCell id="v_subtitle" value="(Visualisasi alur sistem dengan ikon perangkat keras dan media)" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#868e96;fontSize=12;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="100" y="58" width="900" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="db" value="🗄️ Database Server&lt;br&gt;(Neon.db)&lt;br&gt;PostgreSQL" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#212121;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="540" y="123" width="180" height="70" as="geometry" />
+        <mxCell id="v_icon_user" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3E;strokeColor=#232F3E;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws4.user;" vertex="1" parent="1">
+          <mxGeometry x="100" y="120" width="60" height="78" as="geometry" />
         </mxCell>
-        <mxCell id="step1" value="1. Pengunjung membuka&lt;br&gt;web browser → Landing Page" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="248" width="200" height="50" as="geometry" />
+        <mxCell id="v_lbl_user" value="Pengunjung" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=12;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="205" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="step2" value="2. Login / Register&lt;br&gt;→ Server memvalidasi" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="280" y="248" width="200" height="50" as="geometry" />
+        <mxCell id="v_icon_pc" value="" style="sketch=0;html=1;dashed=0;whiteSpace=wrap;shadow=0;shape=mxgraph.networks.laptop;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="100" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="step3" value="3. Server query data user&lt;br&gt;dari database → Dashboard" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="510" y="248" width="200" height="50" as="geometry" />
+        <mxCell id="v_lbl_pc" value="Browser&lt;br&gt;(Chrome, Firefox, Safari)" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="205" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="step4" value="4. Admin: input data CS,&lt;br&gt;kriteria, evaluasi via form" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#7F6000;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="50" y="338" width="200" height="50" as="geometry" />
+        <mxCell id="v_icon_internet" value="" style="sketch=0;html=1;shape=mxgraph.networks.cloud;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="430" y="125" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="step5" value="5. Pengunjung: input bobot&lt;br&gt;preferensi 7 kriteria" style="rounded=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#B71C1C;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="510" y="338" width="200" height="50" as="geometry" />
+        <mxCell id="v_lbl_internet" value="Internet&lt;br&gt;(HTTPS)" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="205" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="step6" value="6. Server memproses MFEP:&lt;br&gt;→ Ambil W &amp; E dari database&lt;br&gt;→ Hitung WE = W × E → ∑WE → Ranking" style="shape=process;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="280" y="428" width="250" height="55" as="geometry" />
+        <mxCell id="v_icon_server" value="" style="sketch=0;html=1;shape=mxgraph.networks.server;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="120" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="step7" value="7. Server mengirim response&lt;br&gt;→ Browser menampilkan&lt;br&gt;hasil ranking ke layar pengguna" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="280" y="518" width="250" height="55" as="geometry" />
+        <mxCell id="v_lbl_server" value="Web Server&lt;br&gt;(Vercel + Next.js)" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="580" y="205" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="step8" value="8. Hasil disimpan ke database&lt;br&gt;untuk riwayat rekomendasi" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#212121;fontSize=12;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="280" y="608" width="250" height="40" as="geometry" />
+        <mxCell id="v_icon_api" value="" style="sketch=0;html=1;shape=mxgraph.networks.server;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="760" y="120" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="title" value="SCHEMATIC FLOWCHART — SPK Pemilihan Coffee Shop" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=20;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="40" width="517" height="25" as="geometry" />
+        <mxCell id="v_lbl_api" value="API Backend&lt;br&gt;(Nest.js)" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="730" y="205" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="subtitle" value="(Menggambarkan alur sistem dengan simbol perangkat keras dan media)" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#868e96;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=2;" vertex="1" parent="1">
-          <mxGeometry x="190" y="68" width="405.34918212890625" height="16" as="geometry" />
+        <mxCell id="v_icon_db" value="" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#212121;fontSize=12;strokeWidth=2;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="900" y="125" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="l1" value="HTTP/HTTPS" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#868e96;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=2;" vertex="1" parent="1">
-          <mxGeometry x="208" y="140" width="49.499969482421875" height="16" as="geometry" />
+        <mxCell id="v_lbl_db" value="Database&lt;br&gt;(Neon.db / PostgreSQL)" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="870" y="210" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="l2" value="SQL Query" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#868e96;fontSize=11;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=2;" vertex="1" parent="1">
-          <mxGeometry x="476.08349609375" y="135.70068359375" width="44.54997253417969" height="16" as="geometry" />
-        </mxCell>
-        <mxCell id="a1" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_user_pc" value="memakai" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="158" as="sourcePoint" />
-            <mxPoint x="280" y="158" as="targetPoint" />
+            <mxPoint x="160" y="160" as="sourcePoint" />
+            <mxPoint x="240" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a2" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_pc_inet" value="HTTPS" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="158" as="sourcePoint" />
-            <mxPoint x="540" y="158" as="targetPoint" />
+            <mxPoint x="340" y="160" as="sourcePoint" />
+            <mxPoint x="430" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a3" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_inet_server" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="193" as="sourcePoint" />
-            <mxPoint x="370" y="233" as="targetPoint" />
+            <mxPoint x="530" y="160" as="sourcePoint" />
+            <mxPoint x="610" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a4" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_server_api" value="REST" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="250" y="273" as="sourcePoint" />
-            <mxPoint x="280" y="273" as="targetPoint" />
+            <mxPoint x="670" y="160" as="sourcePoint" />
+            <mxPoint x="760" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a5" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_api_db" value="SQL" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="273" as="sourcePoint" />
-            <mxPoint x="510" y="273" as="targetPoint" />
+            <mxPoint x="820" y="160" as="sourcePoint" />
+            <mxPoint x="900" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a6" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="v_step_title" value="Alur Skenario Penggunaan" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#1e1e1e;fontSize=14;align=left;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="400" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s1" value="1. Pengunjung mengakses website&lt;br&gt;via browser, server me-render landing page" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="305" width="240" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s2" value="2. Pengunjung login,&lt;br&gt;backend memvalidasi ke database" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="305" width="240" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s3" value="3. Server query data user dan&lt;br&gt;tampilkan dashboard pengunjung" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="305" width="240" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s4" value="4. Admin: input data Coffee Shop,&lt;br&gt;kriteria, dan nilai evaluasi via form" style="rounded=1;arcSize=10;fillColor=#fff2cc;strokeColor=#d6b656;fontColor=#7F6000;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="80" y="385" width="240" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s5" value="5. Pengunjung input bobot&lt;br&gt;preferensi (W) untuk 7 kriteria" style="rounded=1;arcSize=10;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#B71C1C;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="660" y="385" width="240" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s6" value="6. Backend memproses MFEP:&lt;br&gt;ambil W dan E dari DB&lt;br&gt;hitung WE = W x E, totalWE, ranking" style="shape=mxgraph.flowchart.predefined_process;fillColor=#d5e8d4;strokeColor=#82b366;fontColor=#1B5E20;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="465" width="280" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s7" value="7. Response JSON dikirim ke browser,&lt;br&gt;UI menampilkan ranking ke pengunjung" style="rounded=1;arcSize=10;fillColor=#dae8fc;strokeColor=#6c8ebf;fontColor=#0D47A1;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="555" width="280" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="v_s8" value="8. Hasil ranking disimpan ke DB&lt;br&gt;sebagai riwayat rekomendasi" style="rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#212121;fontSize=11;strokeWidth=2;shadow=0;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="370" y="635" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s1_s2" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="298" as="sourcePoint" />
-            <mxPoint x="610" y="323" as="targetPoint" />
+            <mxPoint x="320" y="332" as="sourcePoint" />
+            <mxPoint x="370" y="332" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a7" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_s2_s3" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="610" y="388" as="sourcePoint" />
-            <mxPoint x="610" y="413" as="targetPoint" />
+            <mxPoint x="610" y="332" as="sourcePoint" />
+            <mxPoint x="660" y="332" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a8" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_s3_s4" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="405" y="483" as="sourcePoint" />
-            <mxPoint x="405" y="508" as="targetPoint" />
+            <mxPoint x="780" y="360" as="sourcePoint" />
+            <mxPoint x="200" y="385" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="385" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="a9" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;fontColor=#1e1e1e;fontSize=11;" edge="1" parent="1">
+        <mxCell id="e_s4_s5" value="atau" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#868e96;strokeWidth=1.6;dashed=1;fontColor=#868e96;fontSize=10;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="405" y="573" as="sourcePoint" />
-            <mxPoint x="405" y="598" as="targetPoint" />
+            <mxPoint x="320" y="412" as="sourcePoint" />
+            <mxPoint x="660" y="412" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="e_s5_s6" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="440" as="sourcePoint" />
+            <mxPoint x="510" y="465" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_s6_s7" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="530" as="sourcePoint" />
+            <mxPoint x="510" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_s7_s8" value="" style="endArrow=classicThin;endFill=1;html=1;rounded=0;strokeColor=#1e1e1e;strokeWidth=1.6;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="610" as="sourcePoint" />
+            <mxPoint x="510" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v_legend" value="Legenda warna: biru = Pengunjung umum, kuning = Admin, hijau = Backend/proses, merah = Pengunjung input, abu = penyimpanan" style="text;html=1;strokeColor=#cccccc;fillColor=#fafafa;fontColor=#666666;fontSize=10;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=2;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="900" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
